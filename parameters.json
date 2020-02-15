@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "rdshImageSource": {
+            "value": "Gallery"
+        },
+        "vmImageVhdUri": {
+            "value": ""
+        },
+        "rdshGalleryImageSKU": {
+            "value": "Windows-10-Enterprise-multi-session-with-Office-365-ProPlus"
+        },
+        "rdshCustomImageSourceName": {
+            "value": ""
+        },
+        "rdshCustomImageSourceResourceGroup": {
+            "value": ""
+        },
+        "rdshNamePrefix": {
+            "value": "mach-prefix"
+        },
+        "rdshNumberOfInstances": {
+            "value": 1
+        },
+        "rdshVMDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "rdshVmSize": {
+            "value": "Standard_D4s_v3"
+        },
+        "enableAcceleratedNetworking": {
+            "value": false
+        },
+        "rdshUseManagedDisks": {
+            "value": true
+        },
+        "storageAccountResourceGroupName": {
+            "value": "''"
+        },
+        "domainToJoin": {
+            "value": "jrmvgnaol.onmicrosoft.com"
+        },
+        "existingDomainUPN": {
+            "value": "admin97@jrmvgnaol.onmicrosoft.com"
+        },
+        "existingDomainPassword": {
+            "value": null
+        },
+        "ouPath": {
+            "value": ""
+        },
+        "existingVnetName": {
+            "value": "VirtualDesktop-vnet"
+        },
+        "newOrExistingVnet": {
+            "value": "existing"
+        },
+        "existingSubnetName": {
+            "value": "host-subnet"
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": "WVDInfra-RG"
+        },
+        "rdBrokerURL": {
+            "value": "https://rdbroker.wvd.microsoft.com"
+        },
+        "existingTenantGroupName": {
+            "value": "Default Tenant Group"
+        },
+        "existingTenantName": {
+            "value": "hosttenant"
+        },
+        "hostPoolName": {
+            "value": "hostpooljerome"
+        },
+        "serviceMetadataLocation": {
+            "value": "United-States"
+        },
+        "enablePersistentDesktop": {
+            "value": false
+        },
+        "defaultDesktopUsers": {
+            "value": "david.k@jrmvgnaol.onmicrosoft.com"
+        },
+        "tenantAdminUpnOrApplicationId": {
+            "value": "admin97@jrmvgnaol.onmicrosoft.com"
+        },
+        "tenantAdminPassword": {
+            "value": null
+        },
+        "isServicePrincipal": {
+            "value": false
+        },
+        "aadTenantId": {
+            "value": ""
+        },
+        "location": {
+            "value": "eastus2"
+        }
+    }
+}
